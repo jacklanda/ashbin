@@ -1,0 +1,18 @@
+{
+  "configurations": {
+    "<name>: Launch": {
+      "adapter": "debugpy",
+      "configuration": {
+        "name": "asynchronous-crawler",
+        "type": "python",
+        "request": "launch",
+        "cwd": "${workspaceRoot}",
+        "python": "/bin/python",
+        "stopOnEntry": true,
+        "console": "externalTerminal",
+        "debugOptions": [],
+        "program": "${file}"
+    }
+  }
+}
+}
